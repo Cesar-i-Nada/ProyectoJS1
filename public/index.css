@@ -3,30 +3,14 @@ body{
     font-family: 'addington';
 }
 
-.container1 {
-    display: grid;
-    grid-template-areas:
-      "header header"
-      "footer footer";
-    grid-template-columns: 1fr 2fr;
-    gap: 1px;
-    padding: 1px;
-
-  }
-
-  .container1 > div {
-    background-color: #F2F2F2;
-    padding: 1px;
-  }
-
 .header {
-    grid-area: header;
     text-align: center;
     padding: 1px;
     font-size: 18px;
     background-color: #D9CF48;
     font-family: 'addington';
-    margin: 0;
+    margin-top: 0;
+    border: 0;
   }
   
 .container2 {
@@ -54,13 +38,16 @@ body{
     border-style: dotted;
   }
 
+  .screenFood{
+    background-color: #3D402C;
+  }
+
   #cajaConsulta{
     width: 400px;
     height: 100px;
   }
 
 .footer{
-    grid-area: footer;
     text-align: center;
     padding: 1px;
     font-size: 13px;

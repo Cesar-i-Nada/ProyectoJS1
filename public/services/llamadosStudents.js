@@ -1,6 +1,6 @@
-async function getUsers() {
+async function getStudents() {
     try {
-        const response = await fetch('https://api.hacienda.go.cr/fe/ae?identificacion=207360415', {
+        const response = await fetch('http://localhost:3000/Students', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
@@ -11,57 +11,56 @@ async function getUsers() {
             throw new Error('Error fetching users');
         }
 
-        const users = await response.json();
-        return users;
+        const Students = await response.json();
+        return Students;
     } catch (error) {
         console.error('Error fetching users:', error);
         throw error;
     }
 }
 
-export { getUsers };
+export { getStudents };
 
 //////////LLAMADO POST//////////
 
-async function postUsers(nombre,apellido,edad) {
+async function postStudents(usuario, password, email) {
     try {
-     
-        const userData = { 
-            nombre,
-            apellido,
-            edad
-        
-        };
 
-        const response = await fetch("http://localhost:3000/users", {
+        const userData = { 
+            usuario,
+            password,
+            email
+
+
+
+        const response = await fetch("http://localhost:3000/Students", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(userData)
+            body: JSON.stringify(kitPintura)
         });
-        
+
         return await response.json();
 
+        
     } catch (error) {
         console.error('Error posting user:', error);
         throw error;
     }
 }
 
-export{postUsers}
+export{postStudents}
 
 //////////////LLAMADO UPDATE/////////////
 
 
-async function updateUsers(nombre,apellido,edad,id) 
+async function updateStudents(kitPintura,id) 
 {
     try {
      
         const userData = { 
-            nombre, 
-            apellido,
-            edad
+            temaDelCuadro
         
         };
 
@@ -69,7 +68,7 @@ async function updateUsers(nombre,apellido,edad,id)
         
 
 
-        const response = await fetch("http://localhost:3000/users/"+id, {
+        const response = await fetch("http://localhost:3000/Students/"+id, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
@@ -85,16 +84,16 @@ async function updateUsers(nombre,apellido,edad,id)
     }
 }
 
-export{updateUsers}
+export{updateStudents}
 
 
 
 //////////////LLAMADO DELETE/////////////
 
 
-async function deleteUser(id) {
+async function deleteStudents(id) {
     try {
-        const response = await fetch(`http://localhost:3000/users/${id}`, {
+        const response = await fetch(`http://localhost:3000/Students/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'
@@ -112,4 +111,4 @@ async function deleteUser(id) {
     }
 }
 
-export { deleteUser };
+export { deleteStudents };

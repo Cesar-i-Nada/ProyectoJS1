@@ -42,7 +42,7 @@ div input[type="text"], input[type="password"]{
     outline: 0;
     border: 1px solid #ccc;
     width: 80%;
-    padding: 10px;
+    padding: 5px;
 }
 
 div label{
@@ -67,6 +67,14 @@ div button{
 
 div button:hover{
     opacity: .75;
+}
+
+.laregistracion{
+    color: #6C733D;
+    text-decoration: none;
+    font-family: 'addington';
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 /*Paleta de colores usada*/
