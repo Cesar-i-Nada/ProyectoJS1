@@ -1,3 +1,71 @@
+body{
+    background-color: #F2F2F2;
+    font-family: 'addington';
+}
+
+.container1 {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "footer footer";
+    grid-template-columns: 1fr 2fr;
+    gap: 1px;
+    padding: 1px;
+
+  }
+
+  .container1 > div {
+    background-color: #F2F2F2;
+    padding: 1px;
+  }
+
+.header {
+    grid-area: header;
+    text-align: center;
+    padding: 1px;
+    font-size: 18px;
+    background-color: #D9CF48;
+    font-family: 'addington';
+    margin: 0;
+  }
+  
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1px;
+  }
+  .container2 > div {
+    background-color: #F2F2F2;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .trans{
+    width: 400px;
+    height: 200px;
+    padding: 10%;
+    position: relative;
+    left: 145px;
+  }
+
+  img{
+    border-color: #3D402C;
+    border-style: dotted;
+  }
+
+  #cajaConsulta{
+    width: 400px;
+    height: 100px;
+  }
+
+.footer{
+    grid-area: footer;
+    text-align: center;
+    padding: 1px;
+    font-size: 13px;
+}
+
 /*Paleta de colores usada*/
 
 .color1 {color: #6C733D;}
@@ -5,3 +73,8 @@
 .color3 {color: #D9CF48;}
 .color4 {color: #A69F3F;}
 .color5 {color: #F2F2F2;}
+
+@font-face {
+    font-family: 'addington';
+    src: url(fuente/Addington-CF/Addington-CF/Addington.CF/AddingtonCF-ThinItalic.ttf);
+}

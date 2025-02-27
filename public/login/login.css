@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'addington';
 }
 
 body{
@@ -11,6 +11,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'addington';
+}
+
+#titulo{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #6C733D;
+    font-family: 'addington';
 }
 
 div{
@@ -25,8 +33,8 @@ div{
 }
 
 #icon{
-    width: auto;
-    height: auto;
+    width: 50%;
+    height: 50%;
     padding: 10px;
 }
 
@@ -45,7 +53,7 @@ div label{
 div button{
     outline: 0;
     border: 0;
-    background-color: #3D402C;
+    background-color: #6C733D;
     border-radius: 20px;
     cursor: pointer;
     width: 250px;
@@ -54,9 +62,22 @@ div button{
     text-align: center;
     color: #fff;
     font-weight: 500;
+    margin-bottom: 15px;
 }
 
 div button:hover{
     opacity: .75;
 }
 
+/*Paleta de colores usada*/
+
+.color1 {color: #6C733D;}
+.color2 {color: #3D402C;}
+.color3 {color: #D9CF48;}
+.color4 {color: #A69F3F;}
+.color5 {color: #F2F2F2;}
+
+@font-face {
+    font-family: 'addington';
+    src: url(fuente/Addington-CF/Addington-CF/Addington.CF/AddingtonCF-ThinItalic.ttf);
+}
