@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'addington';
+    background-color: #faefd6;
 }
 
 body{
@@ -11,13 +11,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'addington';
 }
 
 #titulo{
     margin-bottom: 10px;
     text-align: center;
-    color: #6C733D;
+    color: #5d2921;
     font-family: 'addington';
 }
 
@@ -28,41 +27,48 @@ div{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 10px 4px 10px 10px #ccc;
+    box-shadow: 10px 4px 10px 10px #5d2921;
     border-radius: 20px;
 }
 
 #icon{
-    width: 50%;
-    height: 50%;
-    padding: 10px;
+    width: 140px;
+    height: 140px;
+
 }
 
 div input[type="text"], input[type="password"]{
     outline: 0;
-    border: 1px solid #ccc;
+    border: 1px solid #5d2921;
     width: 80%;
     padding: 5px;
+    font-family: 'addington';
+
 }
 
 div label{
     font-weight: 500;
     padding: 10px;
+    font-family: 'addington';
+    color: #5d2921;
+
 }
 
 div button{
     outline: 0;
     border: 0;
-    background-color: #6C733D;
+    background-color: #5d2921;
     border-radius: 20px;
     cursor: pointer;
     width: 250px;
     padding: 5px;
     transition: all .3s ease-in-out;
     text-align: center;
-    color: #fff;
+    color: #faefd6;
     font-weight: 500;
     margin-bottom: 15px;
+    font-family: 'addington';
+
 }
 
 div button:hover{
@@ -70,7 +76,7 @@ div button:hover{
 }
 
 .laregistracion{
-    color: #6C733D;
+    color: #5d2921;
     text-decoration: none;
     font-family: 'addington';
     margin-top: 0;
@@ -79,11 +85,8 @@ div button:hover{
 
 /*Paleta de colores usada*/
 
-.color1 {color: #6C733D;}
-.color2 {color: #3D402C;}
-.color3 {color: #D9CF48;}
-.color4 {color: #A69F3F;}
-.color5 {color: #F2F2F2;}
+.color1 {color: #faefd6;}
+.color2 {color: #5d2921;}
 
 @font-face {
     font-family: 'addington';

@@ -1,36 +1,33 @@
 body{
-    background-color: #F2F2F2;
+    background-color: #faefd6;
     font-family: 'addington';
+    color: #5d2921;
 }
 
 .header {
     text-align: center;
-    padding: 1px;
     font-size: 18px;
-    background-color: #D9CF48;
     font-family: 'addington';
-    margin-top: 0;
     border: 0;
+    color: #5d2921;
   }
   
 .container2 {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 1px;
+    padding: 10px;
   }
   .container2 > div {
-    background-color: #F2F2F2;
-    padding: 10px;
+    background-color: #c8b3d7;
+    padding: 5px;
     font-size: 18px;
     text-align: center;
+    
   }
 
   .trans{
-    width: 400px;
-    height: 200px;
-    padding: 10%;
-    position: relative;
-    left: 145px;
+    width: 600px;
+    height: 100px;
   }
 
   img{
@@ -38,13 +35,33 @@ body{
     border-style: dotted;
   }
 
+  .espera{
+    width: 601px;
+    height: 230px;
+  }
+
   .screenFood{
-    background-color: #3D402C;
+    background-color: #c8b3d7;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 145px;
+    border-style: dotted;
   }
 
   #cajaConsulta{
     width: 400px;
     height: 100px;
+    border-style: dotted;
+  }
+
+  .screenResp{
+    background-color: #c8b3d7;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 145px;
+    border-style: dotted;
   }
 
 .footer{
@@ -60,6 +77,15 @@ body{
 .color3 {color: #D9CF48;}
 .color4 {color: #A69F3F;}
 .color5 {color: #F2F2F2;}
+
+/* Color Theme Swatches in Hex */
+.color1 { color: #F29BAB; }
+.color2 { color: #D3A9D9; }
+.color3 { color: #F2E088; }
+.color4 { color: #F2C6AC; }
+.color5 { color: #8C0303; }
+
+
 
 @font-face {
     font-family: 'addington';

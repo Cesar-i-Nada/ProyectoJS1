@@ -4,7 +4,7 @@ function blases() {
 
 export{blases} 
 
-const snacks = ["🍎","🍕","🍫", "🍔", "🧁"]
+const snacks = ["🍰","🍭","🥫","🍫","🍬","🧁","🍪"]
 
 setInterval(()=>{
   let listaSnacks = snacks.pop()

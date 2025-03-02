@@ -1,5 +1,17 @@
 {
-    "Students":[], 
-    "profe":[]
+  "Students": [
+    {
+      "id": "cb03",
+      "usuario": "Darwin",
+      "password": "4444",
+      "email": "d@gmail.com"
+    },
+    {
+      "id": "b9a3",
+      "usuario": "Ricardo Arjona",
+      "password": "1212",
+      "email": "rj@gmail.com"
+    }
+  ],
+  "profe": []
 }
-

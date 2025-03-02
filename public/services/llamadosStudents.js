@@ -31,14 +31,14 @@ async function postStudents(usuario, password, email) {
             password,
             email
 
-
+        }
 
         const response = await fetch("http://localhost:3000/Students", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(kitPintura)
+            body: JSON.stringify(userData)
         });
 
         return await response.json();
