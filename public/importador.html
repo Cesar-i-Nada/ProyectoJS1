@@ -3,12 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sistema tiquetes Profesor</title>
+    <link rel="stylesheet" href="importador.css">
+    <link href='https://fonts.googleapis.com/css?family=addington' rel='stylesheet'>
 </head>
 <body>
-    <p>Area de profes</p>
+    
+    <div>
+        <div class="header"><h2>&#127849Sistema de tiquetes para consultas&#127849</h2></div>
+    </div>
+    
+    <div class="container">
+        <div>
+            <p>&#127849Conectese con el profesor</p>
+            <a href="https://meet.google.com/vgr-verr-wab">
+            <img class="transImg" src="login/img/chocoIngreso.png" alt="enVivo">
+            </a>
+        </div>
 
+        <div>
+            <p>&#127849Su consulta se encuentra en la posición</p>
+            <div class="snacks"></div>
+        </div>
 
-    <script type="module" src="importador.js"></script>
-</body>
-</html>
+        <div>
+            <p>&#127849Ingrese su consulta aquí</p>
+            <textarea name="blablabla" class="lasConsultas"></textarea>
+        </div>
+
+        <div>
+            <p>&#127849Aquí está su respuesta</p>
+            <div class="lasRespuestas"></div>
+        </div>  
+    </div>
+        
+    <div>
+        <div class="footer"><h3>&#127849Contacto del profesor</h3>
+        <div><h4>profesor@gmail.com</h4><a href="login/login.html">Cerrar sesión</a></div></div>
+    </div>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        
+        <script type="module" src="importador.js"></script>
+    
+    </body>
+    </html>

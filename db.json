@@ -4,13 +4,15 @@
       "id": "cb03",
       "usuario": "Darwin",
       "password": "4444",
-      "email": "d@gmail.com"
+      "email": "d@gmail.com",
+      "rol": "estudiante"
     },
     {
       "id": "b9a3",
       "usuario": "Ricardo Arjona",
       "password": "1212",
-      "email": "rj@gmail.com"
+      "email": "rj@gmail.com",
+      "rol": "profesor"
     }
   ],
   "profe": []

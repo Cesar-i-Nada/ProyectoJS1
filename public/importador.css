@@ -1,0 +1,89 @@
+body{
+    background-color: #faefd6;
+    font-family: 'addington';
+    color: #5d2921;
+}
+/*Título de la página*/
+.header {
+    text-align: center;
+    font-size: 19px;
+    font-family: 'addington';
+    border: 0;
+    color: #5d2921;
+  }
+
+  /*este es el grid central*/
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #c8b3d7;
+    padding: 15px;
+    border-style: dotted;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+  .container > div {
+    background-color: #c8b3d7;
+    border: 1px solid #c8b3d7;
+    padding: 1px;
+    font-size: 22px;
+    text-align: center;
+    width: 480px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #8C0303;
+  }
+
+/*Sección que conduce a la respuesta en meet*/
+  .transImg{
+    width: 400px;
+    height: 100px;
+    border-style: dotted;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+
+/*Sección que muestra la cola de consultas*/
+  .snacks{
+    width: 400px;
+    height: 100px;
+    border-style: dotted;
+    background-color: #faefd6;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+
+/*Sección para que el estudiante ingrese las consultas*/
+  .lasConsultas{
+    width: 400px;
+    height: 100px;
+    border-style: dotted;
+    background-color: #faefd6;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+
+/*Sección para recibir las respuesta del profesor*/
+  .lasRespuestas{
+    width: 400px;
+    height: 100px;
+    border-style: dotted;
+    background-color: #faefd6;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+
+/*Sección para el contacto del profesor*/
+.footer{
+    text-align: center;
+    font-size: 13px;
+}
+
+/*Paleta de colores usada*/
+.color1 { color: #5d2921; }
+.color2 { color: #faefd6; }
+.color5 { color: #8C0303; }
+.color5 { color: #c8b3d7; }
+
+
+
+@font-face {
+    font-family: 'addington';
+    src: url(fuente/Addington-CF/Addington-CF/Addington.CF/AddingtonCF-ThinItalic.ttf);
+}

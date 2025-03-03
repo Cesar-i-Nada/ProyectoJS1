@@ -3,87 +3,89 @@ body{
     font-family: 'addington';
     color: #5d2921;
 }
-
+/*Título de la página*/
 .header {
     text-align: center;
-    font-size: 18px;
+    font-size: 19px;
     font-family: 'addington';
     border: 0;
     color: #5d2921;
   }
-  
-.container2 {
+
+  /*este es el grid central*/
+.container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 10px;
-  }
-  .container2 > div {
     background-color: #c8b3d7;
-    padding: 5px;
-    font-size: 18px;
+    padding: 15px;
+    border-style: dotted;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+  .container > div {
+    background-color: #c8b3d7;
+    border: 1px solid #c8b3d7;
+    padding: 1px;
+    font-size: 22px;
     text-align: center;
-    
+    width: 480px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #8C0303;
   }
 
-  .trans{
-    width: 600px;
-    height: 100px;
-  }
-
-  img{
-    border-color: #3D402C;
-    border-style: dotted;
-  }
-
-  .espera{
-    width: 601px;
-    height: 230px;
-  }
-
-  .screenFood{
-    background-color: #c8b3d7;
-    width: 400px;
-    height: 100px;
-    position: relative;
-    left: 145px;
-    border-style: dotted;
-  }
-
-  #cajaConsulta{
+/*Sección que conduce a la respuesta en meet*/
+  .transImg{
     width: 400px;
     height: 100px;
     border-style: dotted;
+    box-shadow: 10px 4px 10px 10px #5d2921;
   }
 
-  .screenResp{
-    background-color: #c8b3d7;
+/*Sección que muestra la cola de consultas*/
+  .snacks{
     width: 400px;
     height: 100px;
-    position: relative;
-    left: 145px;
     border-style: dotted;
+    background-color: #faefd6;
+    box-shadow: 10px 4px 10px 10px #5d2921;
   }
 
+/*Sección para que el estudiante ingrese las consultas*/
+  .lasConsultas{
+    width: 400px;
+    height: 100px;
+    border-style: dotted;
+    background-color: #faefd6;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+
+/*Sección para recibir las respuesta del profesor*/
+  .lasRespuestas{
+    width: 400px;
+    height: 100px;
+    border-style: dotted;
+    background-color: #faefd6;
+    box-shadow: 10px 4px 10px 10px #5d2921;
+  }
+
+/*Sección para el contacto del profesor*/
 .footer{
     text-align: center;
-    padding: 1px;
     font-size: 13px;
+  }
+  
+.cierre{
+  text-decoration: none;
+  color: #8C0303;
+  font-size: 20px;
 }
 
 /*Paleta de colores usada*/
-
-.color1 {color: #6C733D;}
-.color2 {color: #3D402C;}
-.color3 {color: #D9CF48;}
-.color4 {color: #A69F3F;}
-.color5 {color: #F2F2F2;}
-
-/* Color Theme Swatches in Hex */
-.color1 { color: #F29BAB; }
-.color2 { color: #D3A9D9; }
-.color3 { color: #F2E088; }
-.color4 { color: #F2C6AC; }
+.color1 { color: #5d2921; }
+.color2 { color: #faefd6; }
 .color5 { color: #8C0303; }
+.color5 { color: #c8b3d7; }
 
 
 

@@ -1,15 +1,20 @@
 import { getStudents, postStudents } from "../services/llamadosStudents.js";
-const usuario = document.getElementById("usuario");
+const usuario = document.getElementById("username");
 const password = document.getElementById("password")
 const btnInicio = document.getElementById("btnInicio")
 
     btnInicio.addEventListener("click", async function(){
      const usuarios = await getStudents()
      
-     usuarios = [usuario, password];
 
-     const getStudents = Students.find((element) => element <5 );
+     const usuarioValido = usuarios.find((element) => element.usuario === usuario.value  && element.password === password.value);
      
-     console.log(usuarios);
+     if (usuarioValido) {
+        window.location.href = "../index.js"
+     }else{
+        console.log("USUARIO INVALIDO");
+        document.getElementById("error").textContent = "Usted no puede ingresar";
+
+     }
 })
 

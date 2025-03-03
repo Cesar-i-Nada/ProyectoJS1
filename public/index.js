@@ -1,9 +1,3 @@
-function blases() {
-    return true
-}
-
-export{blases} 
-
 const snacks = ["🍰","🍭","🥫","🍫","🍬","🧁","🍪"]
 
 setInterval(()=>{
